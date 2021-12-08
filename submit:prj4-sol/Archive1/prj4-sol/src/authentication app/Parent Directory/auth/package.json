@@ -1,0 +1,22 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "syntax-check": "shopt -s globstar; for f in **/*.mjs; do node -c $f; done;"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cs544-js-utils": "file:../../../../lib/cs544-js-utils",
+    "cs544-node-utils": "file:../../../../lib/cs544-node-utils",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  }
+}

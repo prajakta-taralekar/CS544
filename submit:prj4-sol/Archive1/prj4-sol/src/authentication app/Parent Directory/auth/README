@@ -1,0 +1,4 @@
+Obtain letsencrypt credentials using:
+
+$ sudo certbot certonly --duplicate --webroot -w /var/www/html/ \
+    -d zdu.binghamton.edu --config-dir /etc/letsencrypt-tmp

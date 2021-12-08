@@ -1,0 +1,2 @@
+Note that code in dev-dist is not produced from current source code as
+parcel appears to have problems building code from external modules.
