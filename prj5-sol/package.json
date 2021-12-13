@@ -17,7 +17,7 @@
     "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
-    "cs544-js-utils": "file:../../../cs544/lib/cs544-js-utils",
+    "cs544-js-utils": "file:cs544-js-utils",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   }
