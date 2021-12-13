@@ -34,7 +34,7 @@ export default function (props) {
     setSubmitted(true);
     const params = { id: props.accountId, fromDate, toDate };
     const response = await props.services.statement(params);
-    processResponse(response, responseHandlers, true);
+    processResponse(response, responseHandlers, false);
   };
 
   const errors = (
