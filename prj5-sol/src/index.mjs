@@ -8,7 +8,6 @@ import ReactDom from "react-dom";
 import App from "./react/app.jsx";
 
 const DEFAULT_WS_URL =
-  "https://c9551fc7-eac5-455a-9314-bfba396b5440.mock.pstmn.io" ||
   "https://zdu.binghamton.edu:2345";
 
 /** Return url set in query param 'ws-url' if present; otherwise
